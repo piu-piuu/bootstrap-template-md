@@ -10,21 +10,31 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 bg-light rounded p-3">
-          <div class="bg-light">
+        <div class='col-md-3'>
+        <div class='bg-light rounded p-3' >
           <h1>Some Favorites</h1>
           <ul>
-              <li><a href="#">Celery Root</a>
-              <li><a href="#">Spaghetti Squash</a>
-              <li><a href="#">Killer Mushrooms</a>
+              <li class='nav-item'><a class='nav-link' href="#">Celery Root</a>
+              <li class='nav-item'><a class='nav-link' href="#">Spaghetti Squash</a>
+              <li class='nav-item'><a class='nav-link' href="#">Killer Mushrooms</a>
           </ul>
+          <form>
+            <input type='text'class='form-control'>
+            <button class='btn btn-primary' type='submit'>Search Recipes</button>
+          </form>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
           <h1>Wild & Wacky Vegetables</h1>
-
+          <blockquote class="blockquote">
+            <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores nihil distinctio earum repudiandae corporis quas commodi enim dolor, repellendus id illo in nam non ipsa, voluptatum explicabo voluptatibus sunt?</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
           <h1>Some diseases</h1>
-          <table>
+          <table class='table table-striped table-bordered'>
             <thead>
               <tr>
                 <th>Veggie</th>
@@ -33,11 +43,26 @@
             </thead>
             <tbody>
               <tr>
+                <td>Beets</td>
+                <td>Beeturia</td>
+              </tr>
+              <tr>
                 <td>Carrots</td>
                 <td>Carotenosis</td>
               </tr>
             </tbody>
           </table>
+          <div class='row'>
+            <div class="col-md-3">
+            <img class='img-thumbnail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Beets-Bundle.jpg/800px-Beets-Bundle.jpg'alt='Beets'>
+            </div>
+            <div class="col-md-3">
+            <img class='img-thumbnail' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/CarrotDiversityLg.jpg'alt='Carrots'>
+            </div>
+            <div class="col-md-3">
+            <img class='img-thumbnail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Green_Asparagus_New_York_11_May_2006.jpg/220px-Green_Asparagus_New_York_11_May_2006.jpg'alt='Asparagus'>
+            </div>
+           </div>
           <h1>Realy informative</h1>
           <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
           </p>
